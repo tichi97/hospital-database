@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Doctor form</title>
+ <link rel="stylesheet" href="css/style2.css">
+ <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+ 
+</head>
+<body>
+<button class="btn" type="button" id="back" onclick=""><a href="man_home.html">Back</a> </button>
+<div class=wrapper>
+<h1>New Doctor Form</h1>
+      <form action="doctor_insert.php" method="POST" id="insert">
+                  <table>
+                              <tr>
+                                          <td >Name*</td>
+                                          <td  ><input type="text" size=40 name="name"></td>
+                              </tr>
+                              <tr>
+                                          <td >Doctor id</td>
+                                          <td  ><input type="text" size=40 name="id"></td>
+                              </tr>
+                              <tr>
+                                          <td >Specialty</td>
+                                          <td  ><input type="text" size=40 name="specialty"></td>
+                              </tr>
+                              <tr>
+                                          <td colspan=2 id="sub"><input class="btn" type="submit" name="submit" value="submit" ></td>
+                              </tr>
+                  </table>
+      </form>
+</div>
+
+</body>
+</html>

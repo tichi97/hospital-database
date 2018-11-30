@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">      
+</head>
+
+<body>
+<div class="wrapper">
+
+	<div class="container">
+	<h1>What would you like to do?</h1>	
+
+		
+		<div class="dropdown">
+			<button type="button" id="create" onclick="">Create</button>
+			<div class="dropdown_content">
+				<a href="patient_create.html">Patient</a>
+			    <a href="treatment_create.html">Treatment</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button type="button" id="update" onclick="">Update</button>
+			<div class="dropdown_content">
+				<a href="patient_update.php">Patient</a>
+			    <a href="treatment_update.php">Treatment</a>
+			</div>
+		</div>
+		<div class="dropdown">	
+			<button type="button" id="view" onclick="">View</button>
+			<div class="dropdown_content">
+				<a href="patient_view.php">Patient</a>
+			    <a href="treatment_view.php">Treatment</a>
+			</div>
+		</div>
+		<button class="btn" type="button" id="log out" onclick=""><a href="../login.html">Log Out</a> </button>
+	</div>
+
+	
+
+</body>
+</html>

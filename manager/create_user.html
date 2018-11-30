@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Manager form</title>
+ <link rel="stylesheet" href="css/style2.css">
+ <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+</head>
+<body>
+<button class="btn" type="button" id="back" onclick=""><a href="man_home.html">Back</a> </button>
+<div class=wrapper>
+<h1>New User Form</h1>
+      <form action="users_insert.php" method="POST" id="insert">
+                  <table>
+                              <tr>
+                                          <td >Username</td>
+                                          <td  ><input type="text" size=40 name="username"></td>
+                              </tr>
+                              <tr>
+                                          <td >password</td>
+                                          <td  ><input type="password" size=40 name="password"></td>
+                              </tr>
+                              <tr>
+                                          <td >confirm password</td>
+                                          <td  ><input type="password" size=40 name="confirm_password"></td>
+                              </tr>
+                              <tr>
+                                          <td >Type</td>
+                                          <td  ><select name="type" size="1" >
+                                                  <option value="Doctor" selected="">doctor</option>
+                                                  <option value="Manager">manager</option>
+                              </select></td>
+                              </tr>
+                              
+                              <tr>
+                                          <td colspan=2 id="sub"><input class="btn" type="submit" name="submit" value="submit" ></td>
+                              </tr>
+                  </table>
+      </form>
+</div>
+</body>
+</html>

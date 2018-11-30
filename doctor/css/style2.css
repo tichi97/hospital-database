@@ -1,0 +1,92 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+
+}
+
+body{
+	font-family:  "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: #000;
+	background: #00194c;
+	font-weight: 300;
+	
+}
+
+.wrapper{
+	height:auto;
+	width:1000px;
+	background-color: #EEEEEE;
+	position: absolute;
+	left:50%;
+	top:20%;
+	margin-left:-515px;
+	margin-bottom: 15px;
+	padding:30px;
+}
+input{
+  padding: 10px;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+  margin-bottom: 10px;
+}
+
+.btn{
+		outline: 0;
+		border: 0;
+		width: 20%;
+		cursor: pointer;
+		font-size: 18px;
+		transition-duration: 0.25s;
+		display: inline-block;
+	    margin-right: 10px;
+	    background-color: #18244A;
+	    color:white;
+
+	    margin-top: 30px;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+#back{
+	margin: 20px;
+	background-color: #EEEEEE;
+	padding: 10px;
+	width:10%;
+
+}
+a{
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+h1{
+	border-bottom: 4px dotted #474747;
+	font-family: inherit;
+	letter-spacing: 1px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+#view{
+	margin: 20px;
+	border-collapse: collapse;
+    width: 100%;
+}
+#view td, #view th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#view th{
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#474747 ;
+    color: white;
+}
+ 

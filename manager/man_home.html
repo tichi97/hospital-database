@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">      
+</head>
+
+<body>
+<div class="wrapper">
+
+	<div class="container">
+	<h1>What would you like to do?</h1>	
+
+		
+		<div class="dropdown">
+			<button type="button" id="create" onclick="">Create</button>
+			<div class="dropdown_content">
+				<a href="create_doctor.html">Doctor</a>
+			    <a href="create_manager.html">Manager</a>
+			    <a href="create_user.html">User</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button type="button" id="update" onclick="">Update</button>
+			<div class="dropdown_content">
+				<a href="doctor_update.php">Doctor</a>
+			    <a href="manager_update.php">Manger</a>
+			    <a href="users_update.php">User</a>
+			</div>
+		</div>
+		<div class="dropdown">	
+			<button type="button" id="view" onclick="">View</button>
+			<div class="dropdown_content">
+				<a href="doctor_view.php">Doctor</a>
+			    <a href="manager_view.php">Manger</a>
+			    <a href="users_view.php">User</a>
+			    <a href="patient_view.php">Patient</a>
+			    <a href="treatment_view.php">Treatments</a>
+			</div>
+		</div>
+		<div class="dropdown">	
+			<button type="button" id="delete" onclick="">Delete</button>
+			<div class="dropdown_content">
+				<a href="delete_doctor.php">Doctor</a>
+			    <a href="manager_delete.php">Manger</a>
+			    <a href="delete_user.php">User</a>
+			    <a href="patient_delete.php">Patient</a>
+			    <a href="treatment_delete.php">Treatments</a>
+			</div>
+		</div>
+		<button class="btn" type="button" id="log out" onclick=""><a href="../login.html">Log Out</a> </button>
+	</div>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+   <html> 
+<head>
+<title>Treatment form</title>
+<link rel="stylesheet" href="css/style2.css">
+ <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+>
+</head>
+<body>
+<button class="btn" type="button" id="back" onclick=""><a href="doc_home.html">Back</a> </button>
+<div class=wrapper>
+<h1>New Treatment Form</h1>
+      <form action="treatment_insert.php" method="POST" id="insert">
+                  <table>
+                              <tr>
+                                          <td >Date</td>
+                                          <td  ><input type="date" size=40 name="date"></td>
+                              </tr>
+                              <tr>
+                                          <td >Treatment id</td>
+                                          <td  ><input type="text" size=40 name="id"></td>
+                              </tr>
+                              <tr>
+                                          <td >Patient id</td>
+                                          <td  ><input type="text" size=40 name="p_id"></td>
+                              </tr>
+                              <tr>
+                                          <td >Doctor id</td>
+                                          <td  ><input type="text" size=40 name="doc_id"></td>
+                              </tr>
+                              <tr>
+                                          <td >Diagnosis</td>
+                                          <td  ><input type="text" size=80 name="diagnosis"></td>
+                              </tr>
+                              <tr>
+                                          <td >prescription</td>
+                                          <td  ><input type="text" size=80 name="prescription"></td>
+                              </tr>
+                              
+                              <tr>
+                                          <td colspan=2 id="sub"><input class="btn" type="submit" name="submit" value="submit" ></td>
+                              </tr>
+                  </Table>
+      </form>
+</body>
+</html>
